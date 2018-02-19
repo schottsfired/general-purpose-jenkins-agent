@@ -1,2 +1,10 @@
-# general-purpose-jenkins-agent
-A general purpose Jenkins agent, suitable for use in containerized environments.
+# General Purpose Jenkins Agent
+a.k.a. "The Kitchen Sink"
+
+## What's installed
+* OpenJDK 8 (alpine)
+* curl
+* maven
+* git
+* docker
+* docker-compose
