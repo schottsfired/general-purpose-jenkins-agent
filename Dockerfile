@@ -6,7 +6,7 @@ FROM openjdk:8-jdk-alpine
 RUN apk update && \
 	apk upgrade && \
 	apk --no-cache add curl && \
-	apk --no-cache add maven && \
+	#apk --no-cache add maven && \
 	apk --no-cache add git && \
 	apk --no-cache add docker && \
 	apk --no-cache add py-pip && \
